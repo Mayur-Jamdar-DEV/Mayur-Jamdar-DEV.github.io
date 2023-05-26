@@ -1,7 +1,10 @@
 {
+  "homepage":"https://mayur-jamdar-dev.github.io",
   "name": "food-delivery",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

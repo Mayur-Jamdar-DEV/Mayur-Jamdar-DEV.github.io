@@ -1,0 +1,104 @@
+
+.container {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.left-column {
+  position: absolute;
+  top: 171px;
+  left: 123px;
+}
+
+.right-column {
+  flex: 4 0 100%;
+}
+
+.m-6 {
+  background-color: #84abea;
+}
+
+.seat-map {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.col-form-label{
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+#numSeats{
+  width: 190px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat.available {
+  background-color: lightgreen;
+}
+
+.seat.selected {
+  background-color: yellow;
+}
+
+.seat.booked {
+  background-color: rgb(246, 75, 13);
+}
+
+.selected-seats {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.seat-item {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.seat-number {
+  display: inline-block;
+  background-color: white;
+  color: green;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+
+.trainSeats{
+  margin-left: 50%;
+}
+
+.page-background {
+  background-image: url('../assets/img/train.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.danger-message{
+  color: red;
+}
